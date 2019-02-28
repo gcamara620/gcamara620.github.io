@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+    	PANTRY
+    </title>
+  </head>
+  <body>
+    
+    <center> 
+
+    <br>
+
+    <style>
+img{
+
+
+Margin-bottom: -6px;
+}
+</style> 
+<a href="flour.html"><img src="flakes.png"></a><br><a href="flakes.html"><img src="flakes.png"></a><a href="tuna.html"><img src="tuna.png">
+
+
+ </body>
+</html>
