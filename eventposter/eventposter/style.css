@@ -1,0 +1,211 @@
+body {
+
+}
+.bg {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-image: url("whitneyy.png");
+	background-size: cover;
+	background-position: center; 
+	background-repeat: no-repeat;
+}
+
+.bbg {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-image: url("static.gif");
+	background-size: cover;
+	background-position: center; 
+	background-repeat: no-repeat;
+}
+
+
+.wrapper {
+	position: absolute;
+	width: 502px;
+	height: 700px;
+	top: 0;
+	left: 200px;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: transparent;
+}
+
+.logo{
+	position: absolute;
+	width: 57px;
+	height: 20px;
+	top: 4px;
+	left: 13px;
+	background-image: url("logo.png");
+	background-size: contain;
+	background-position: center; 
+	background-repeat: no-repeat;
+}
+
+.logo1 {
+    position: absolute;
+    width: 148px;
+    height: 47px;
+    top: 4px;
+    left: -10px;
+    background-image: url(whitneyw.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.headline1 {
+	position: absolute;
+	font-family: Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 21px;
+	color: rgb(204, 191, 173);
+	top: 48px;
+	left: 30px;
+}
+
+.headline2 {
+	position: absolute;
+	font-family: Helvetica, sans-serif;
+	font-size: 75px;
+	color:white;
+	top: 65px;
+	left: 40px;
+}
+
+.date {
+		position: absolute;
+		font-family: Helvetica;
+		width: 230px;
+		font-size: 30px;
+		font-weight: bold;
+		color: white;
+		top: 488px;
+		right: 103px;
+}
+
+.address {
+		position: absolute;
+		font-family: Helvetica;
+		width: 230px;
+		font-size: 14px;
+		color: white;
+		top: 526px;
+		right: -150px;
+}
+
+
+
+
+
+
+ @media (max-width: 375px) {
+ 	body {
+
+}
+.bbg {
+    position: absolute;
+    width: 756px;
+    height: 834px;
+    top: 333px;
+    left: -35px;
+    background: opacity 0.5;
+    background-image: url(neonstatic.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg {
+    position: absolute;
+    width: 756px;
+    height: 764px;
+    top: 369px;
+    left: -35px;
+    background-image: url(tv1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+	position: center;
+	width: 375px;
+    height: 667px;
+    top: 0;
+    left: 200px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: transparent;
+}
+
+.logo {
+    position: absolute;
+    width: 87px;
+    height: 19px;
+    top: 4px;
+    left: 14px;
+    background-image: url(whitneylogo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo1 {
+    position: absolute;
+    width: 217px;
+    height: 72px;
+    top: 1px;
+    left: -12px;
+    background-image: url(whitneyw.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.headline1 {
+    position: absolute;
+    font-size: 33px;
+    top: 7px;
+    right: -66px;
+    font-family: 'Source Code Pro', monospace;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.headline2 {
+    position: absolute;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 65px;
+    color: black;
+    top: 76px;
+    left: -70px;
+}
+
+.date {
+    position: absolute;
+    font-family: 'Source Code Pro', monospace;
+    width: 293px;
+    font-size: 29px;
+    color: black;
+    top: 1074px;
+    right: 262px;
+}
+
+.address {
+    position: absolute;
+    font-family: 'Source Code Pro', monospace;
+    width: 309px;
+    font-size: 24px;
+    color: black;
+    top: 1111px;
+    left: 180px;
+}
+}
