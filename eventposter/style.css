@@ -115,8 +115,8 @@ body {
 .bbg {
     position: absolute;
     width: 756px;
-    height: 764px;
-    top: 269px;
+    height: 834px;
+    top: 333px;
     left: -35px;
     background: opacity 0.5;
     background-image: url(neonstatic.gif);
@@ -127,7 +127,7 @@ body {
     position: absolute;
     width: 756px;
     height: 764px;
-    top: 269px;
+    top: 369px;
     left: -35px;
     background-image: url(tv1.jpg);
     background-size: cover;
@@ -173,7 +173,7 @@ body {
 .headline1 {
     position: absolute;
     font-size: 33px;
-    top: 61px;
+    top: 7px;
     right: -66px;
     font-family: 'Source Code Pro', monospace;
     margin: 0 auto;
@@ -185,7 +185,7 @@ body {
     font-family: 'Source Code Pro', monospace;
     font-size: 65px;
     color: black;
-    top: 115px;
+    top: 76px;
     left: -70px;
 }
 
@@ -195,7 +195,7 @@ body {
     width: 293px;
     font-size: 29px;
     color: black;
-    top: 1018px;
+    top: 1074px;
     right: 262px;
 }
 
@@ -205,7 +205,7 @@ body {
     width: 309px;
     font-size: 24px;
     color: black;
-    top: 1052px;
+    top: 1111px;
     left: 180px;
 }
 }
