@@ -65,42 +65,42 @@ body {
 
 .headline1 {
 	position: absolute;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Source Code Pro', monospace;
 	font-style: italic;
 	font-size: 21px;
 	color: rgb(204, 191, 173);
-	top: 48px;
-	left: 30px;
+	top: 42px;
+    left: 144px;
 }
 
 .headline2 {
 	position: absolute;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Source Code Pro', monospace;
 	font-size: 75px;
 	color:white;
-	top: 65px;
-	left: 40px;
+	top: 59px;
+    left: 183px;
 }
 
 .date {
-		position: absolute;
-		font-family: Helvetica;
-		width: 230px;
-		font-size: 30px;
-		font-weight: bold;
-		color: white;
-		top: 488px;
-		right: 103px;
+	position: absolute;
+	font-family: 'Source Code Pro', monospace;
+	width: 393px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    top: 463px;
+    right: -79px;
 }
 
 .address {
-		position: absolute;
-		font-family: Helvetica;
-		width: 230px;
-		font-size: 14px;
-		color: white;
-		top: 526px;
-		right: -150px;
+	position: absolute;
+	font-family: 'Source Code Pro', monospace;
+	width: 463px;
+   	font-size: 15px;
+   	color: white;
+    top: 600px;
+    right: -150px;
 }
 
 
@@ -172,8 +172,8 @@ body {
 
 .headline1 {
     position: absolute;
-    font-size: 33px;
-    top: 7px;
+    font-size: 38px;
+    top: -18px;
     right: -66px;
     font-family: 'Source Code Pro', monospace;
     margin: 0 auto;
@@ -193,19 +193,19 @@ body {
     position: absolute;
     font-family: 'Source Code Pro', monospace;
     width: 293px;
-    font-size: 29px;
+    font-size: 41px;
     color: black;
-    top: 1074px;
+    top: 1053px;
     right: 262px;
 }
 
 .address {
     position: absolute;
     font-family: 'Source Code Pro', monospace;
-    width: 309px;
-    font-size: 24px;
+    width: 300px;
+    font-size: 28px;
     color: black;
-    top: 1111px;
-    left: 178px;
+    top: 1107px;
+    left: 193px;
 }
 }
