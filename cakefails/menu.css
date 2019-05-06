@@ -1,0 +1,66 @@
+body {
+}
+
+.picmenu {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-image: url("kidsparty.jpg");
+	background-size: cover;
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-color: transparent;
+	opacity: 0.5
+}
+
+.wrapper {
+	position: absolute;
+	width: 502px;
+	height: 700px;
+	top: 0;
+	left: 200px;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: transparent;
+}
+
+.headline {
+	position: absolute;
+	font-family: 'Source Code Pro', monospace;
+	font-style: italic;
+	font-size: 75px;
+	color: black;
+	top: 42px;
+    left: 186px;
+}
+
+.holiday {
+    position: absolute;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 21px;
+    color: orangered;
+    top: 261px;
+    left: 351px;
+}
+
+.birthday {
+    position: absolute;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 21px;
+    color: orangered;
+    top: 261px;
+    left: 351px;
+}
+
+.special {
+    position: absolute;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 21px;
+    color: orangered;
+    top: 261px;
+    left: 351px;
+}
+    

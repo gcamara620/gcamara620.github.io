@@ -1,0 +1,167 @@
+body {
+}
+
+.homepage {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-image: url("homep.jpg");
+	background-size: cover;
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-color: transparent;
+	opacity: 0.4;
+}
+
+.frontpagecake {
+	position: absolute;
+    width: 50vw;
+    height: 50vh;
+    top: 317px;
+    left: 501px;
+	background-image: url("mYZ.gif");
+	background-size: contain;
+	background-position: center; 
+	background-repeat: no-repeat;
+}
+
+.wrapper {
+	position: absolute;
+	width: 502px;
+	height: 700px;
+	top: 0;
+	left: 200px;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: transparent;
+}
+
+.headline1 {
+	position: absolute;
+	font-family: 'Source Code Pro', monospace;
+	font-style: italic;
+	font-size: 75px;
+	color: black;
+	top: 42px;
+    left: 186px;
+}
+
+.headline2 {
+    position: absolute;
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: underline;
+    font-size: 21px;
+    color: orangered;
+    top: 261px;
+    left: 351px;
+}
+
+
+.picmenu {
+	position: absolute;
+	width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+	background-image: url("kidsparty.jpg");
+	background-size: cover;
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-color: transparent;
+	opacity: 0.5
+}
+
+.headline {
+	position: absolute;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 75px;
+	color: black;
+	top: 42px;
+    left: 0px;
+}
+
+.holiday {
+    position: absolute;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    color: orangered;
+    top: 149px;
+    left: -2px;
+}
+
+.birthday {
+    position: absolute;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    color: orangered;
+    top: 227px;
+    left: -2px;
+}
+
+.special {
+    position: absolute;
+    font-family: 'Source Code Pro', monospace;
+	font-size: 30px;
+    color: orangered;
+    top: 188px;
+    left: -2px;
+}
+
+.nailed {
+    position: absolute;
+    font-family: 'Source Code Pro', monospace;
+	font-size: 30px;
+    color: orangered;
+    top: 270px;
+    left: -2px;
+}
+
+.menu {
+    float: left;
+    width: 152px;
+}
+
+.sidenav {
+  height: 100%; 
+  width: 160px; 
+  position: fixed; 
+  border: 2px solid black; 
+  z-index: 1;
+  top: 0; 
+  left: 0; 
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  font-family: 'Source Code Pro', monospace;
+  text-decoration: none;
+  font-size: 20px;
+  color: orangered;;
+  display: block;
+}
+
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; 
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.content {
+    margin-left: 154px;
+    object-fit: contain;
+    
+}
