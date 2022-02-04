@@ -1,0 +1,108 @@
+.box {
+	position: absolute;
+	right:  0%;
+	bottom:  0%;
+	top: 400px;
+	left:  200px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: rgb(200,20,70);
+	animation-name: bounce;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes bounce {
+	0% {
+		left: 80px;
+		right: 15px;
+		
+	}
+	50% {
+		left: 970px;
+		right: 900px;
+		
+	}
+
+	100% {
+		left: 80px;
+		right: 15px;
+		
+	}
+
+
+}
+
+.paddle1 {
+	position: absolute;
+	top: 800px;
+	left: 80px;
+	width:  20px;
+	height: 150px;
+	background-color:  rgb(0, 20, 70);
+	animation-name: paddleleft;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes paddleleft {
+	0% {
+		top: 500px;
+		width:  15px;
+	}
+	50% {
+		top: 280px;
+		width:  20px;
+
+	}
+	100% {
+		top:  500px;
+		width:  15px;
+	}
+
+}
+
+.paddle2 {
+	position: absolute;
+	top: 600px;
+	left: 1000px;
+	width:  20px;
+	height: 150px;
+	background-color:  rgb(0, 20, 70);
+	animation-name: paddleright;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes paddleright {
+	0% {
+		top: 470px;
+		width:  15px;
+	}
+	50% {
+		top: 280px;
+		width:  20px;
+
+	}
+	100% {
+		top:  470px;
+		width:  15px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 3 divs two paddles + ball. three diff key frame animations */ 
