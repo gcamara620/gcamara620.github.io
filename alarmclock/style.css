@@ -1,0 +1,93 @@
+body { 
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.topslow {
+  position: absolute;
+  top: 10vw;
+  left: 18vw;
+  width: 17.79vw;
+  height: 17.79vw;
+  background-image: url(4.jpg);
+  animation-name: animationA;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;  
+}
+
+.topfast {
+  position: absolute;
+  top: 10vw;
+  left: 40vw;
+  width: 17.79vw;
+  height: 17.79vw;
+  background-image: url(3.jpg);
+  animation-name: animationA;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;  
+}
+
+.btmslow {
+  position: absolute;
+  top: 35vw;
+  left: 40vw;
+  width: 17.79vw;
+  height: 17.79vw;
+  background-image: url(1.jpg);
+  animation-name: animationA;
+  animation-duration: 25s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.btmfast {
+  position: absolute;
+  top: 35vw;
+  left: 18vw;
+  width: 17.79vw;
+  height: 17.79vw;
+  background-image: url(2.jpg);
+  animation-name: animationA;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;  
+}
+
+@keyframes animationA {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*
+.countdown {
+  position: absolute;
+  top: 8vh;
+  left: 13vw;
+  width: 52vw;
+  height: 3vw;
+  margin-left: auto;
+  margin-right: auto;  
+  background-color: darkblue;
+  animation-name: animationB;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: initial;
+}
+
+
+
+@keyframes animationB {
+  0% {
+    width: 0vh;
+  }
+  100% {
+    width: 100vh;
+  }
+}
