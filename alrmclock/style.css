@@ -1,0 +1,204 @@
+body { 
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 198, 11);
+}
+
+.topslow {
+  position: absolute;
+  top: 4vw;
+  left: 19vw;
+  width: 17.79vw;
+  height: 17.79vw;
+  background-image: url(mouthclosed.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation-name: animationA;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;  
+}
+
+.topfast {
+  position: absolute;
+  top: 4vw;
+  left: 37vw;
+  width: 17.79vw;
+  height: 17.79vw;
+  background-image: url(mouthclosed.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation-name: animationA;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;  
+}
+
+.btmslow {
+  position: absolute;
+  top: 25vw;
+  left: 37vw;
+  width: 17.79vw;
+  height: 17.79vw;
+  background-image: url(mouthclosed.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation-name: animationA;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+.btmfast {
+  position: absolute;
+  top: 25vw;
+  left: 19vw;
+  width: 17.79vw;
+  height: 17.79vw;
+  background-image: url(mouthclosed.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation-name: animationA;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;  
+}
+
+@keyframes animationA {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.topslow2 {
+  position: absolute;
+  top: 11vw;
+  left: 19vw;
+  width: 17.79vw;
+  height: 17.79vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+} 
+
+.topslow.alarm {
+  background-image: url(mouthopen.png);
+  animation-name: flash;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.topfast.alarm {
+  background-image: url(mouthopen.png);
+  animation-name: little-rotate;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.btmslow.alarm {
+  background-image: url(mouthopen.png);
+  animation-name: little-rotate;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.btmfast.alarm {
+  background-image: url(mouthopen.png);
+  animation-name: little-rotate;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flash {
+    0% {
+    transform: rotate(0deg);
+    background-image: url(miffyred.png);
+  }
+  25% {
+    transform: rotate(-45deg);
+    background-image: url(miffyred.png);
+  }
+    50% {
+    background-image: url(miffybloo.png);
+  }
+  75% {
+    transform: rotate(45deg);
+    background-image: url(miffybloo.png);
+  }  
+  100% {
+    transform: rotate(0deg); 
+    background-image: url(miffyred.png);
+  } 
+  
+}
+
+@keyframes bgImage {
+    0% {
+    transform: rotate(0deg);
+    background-image: url(miffyred.png);
+  }
+  25% {
+    transform: rotate(-45deg);
+    background-image: url(miffyred.png);
+  }
+    50% {
+    background-image: url(miffybloo.png);
+  }
+  75% {
+    transform: rotate(45deg);
+    background-image: url(miffybloo.png);
+  }  
+  100% {
+    transform: rotate(0deg); 
+    background-image: url(miffyred.png);
+  } 
+  
+}
+
+@keyframes little-rotate {
+  0% {
+    background-image: url(mouthopen.png);
+  }
+  25% {
+    background-image: url(mouthopen.png);
+  }
+    50% {
+    background-image: url(mouthclosed.png);
+    border-color: slateblue;
+  }
+  75% {
+    background-image: url(mouthclosed.png);
+  }  
+  100% {
+    background-image: url(mouthopen.png);
+  }  
+
+/*
+@keyframes little-rotate {
+  0% {
+    transform: rotate(0deg);
+    background-image: url(mouthopen.png);
+  }
+  25% {
+    transform: rotate(-45deg);
+    background-image: url(mouthopen.png);
+  }
+    50% {
+    background-image: url(mouthclosed.png);
+    border-color: slateblue;
+  }
+  75% {
+    transform: rotate(45deg);
+    background-image: url(mouthclosed.png);
+    border-color: slateblue;
+  }  
+  100% {
+    transform: rotate(0deg); 
+    background-image: url(mouthopen.png);
+  }  
+*/
+
